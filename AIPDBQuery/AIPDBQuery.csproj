@@ -5,16 +5,21 @@
     <TargetFramework>net8.0-windows8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <PublishAot>false</PublishAot>
-	<PublishTrimmed>false</PublishTrimmed>
     <InvariantGlobalization>true</InvariantGlobalization>
-    <PlatformTarget>x86</PlatformTarget>
-	<RuntimeIdentifier>win-x86</RuntimeIdentifier>
-	  <!--<PublishAot>true</PublishAot>
-	  <PublishTrimmed>true</PublishTrimmed>
-	  <PlatformTarget>x64</PlatformTarget>
-	<RuntimeIdentifier>win-x64</RuntimeIdentifier>-->
+	<!--<PublishAot>false</PublishAot>
+	<PublishTrimmed>false</PublishTrimmed>
+    <PlatformTarget>x64</PlatformTarget>
+	<RuntimeIdentifier>win-x86</RuntimeIdentifier>	 --> 
+	<PublishAot>true</PublishAot>
+	<PublishTrimmed>true</PublishTrimmed>
+	<PlatformTarget>x64</PlatformTarget>
+	<RuntimeIdentifier>win-x64</RuntimeIdentifier>	  
 	<SelfContained>true</SelfContained>
+	<ApplicationIcon>AIPDBQuery.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="AIPDBQuery.ico" />
+  </ItemGroup>
 
 </Project>
