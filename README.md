@@ -4,3 +4,4 @@
 
 <i>tldr: x86 or AOT and never, ever x64!</i>
 
+# AIPDBQuery, AbuseIPDB Query CLI Tool
