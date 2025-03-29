@@ -1,4 +1,4 @@
-![CLI Output](memory-wars-screenshot.png)
+![og-image](memory-wars-screenshot.png)
 
 <i>who will win the memory wars?</i>
 
