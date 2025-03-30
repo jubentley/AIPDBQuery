@@ -135,7 +135,12 @@ namespace AIPDBQuery
 
                 string? input = Console.ReadLine();
 
-                if (string.IsNullOrWhiteSpace(input) || input.ToLower() == "q") { break; } // terminate
+                if (string.IsNullOrWhiteSpace(input) || 
+                    input.ToLower().StartsWith("q") || 
+                    input.ToLower() == "exit"
+                ){ 
+                    break;                      // terminate
+                }                               
 
                 if (!IsValidIpAddress(input))
                 {
