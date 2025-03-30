@@ -6,14 +6,17 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <InvariantGlobalization>true</InvariantGlobalization>
-	<!--<PublishAot>false</PublishAot>
+	  
+	<PublishAot>false</PublishAot>
 	<PublishTrimmed>false</PublishTrimmed>
     <PlatformTarget>x64</PlatformTarget>
-	<RuntimeIdentifier>win-x86</RuntimeIdentifier>	 --> 
-	<PublishAot>true</PublishAot>
+	<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+	  
+	<!--<PublishAot>true</PublishAot>
 	<PublishTrimmed>true</PublishTrimmed>
 	<PlatformTarget>x64</PlatformTarget>
-	<RuntimeIdentifier>win-x64</RuntimeIdentifier>	  
+	<RuntimeIdentifier>win-x64</RuntimeIdentifier>	  	 --> 
+	  
 	<SelfContained>true</SelfContained>
 	<ApplicationIcon>AIPDBQuery.ico</ApplicationIcon>
   </PropertyGroup>
